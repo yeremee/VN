@@ -1,11 +1,13 @@
-title: Just the Docs Template
+title: Автоматический нумератор версий для Visual Studio
+
 description: A starter template for a Jeykll site using the Just the Docs theme!
+
 theme: just-the-docs
 
 url: https://just-the-docs.github.io
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Загрузить расширение: https://github.com/yeremee/VN/releases
 
 # Color scheme supports "light" (default) and "dark"
 color_scheme: dark
@@ -13,3 +15,13 @@ color_scheme: dark
 # Enable or disable the site search
 # Supports true (default) or false
 search_enabled: false
+
+callouts:
+  command:
+    color: grey-dk
+
+# Set a path/url to a logo that will be displayed instead of the title
+logo: "/img/logo.png"
+
+# Set a path/url to a favicon that will be displayed by the browser
+favicon_ico: "/img/logo.png"
