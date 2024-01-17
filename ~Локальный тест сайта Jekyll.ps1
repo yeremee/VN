@@ -1,6 +1,7 @@
 Clear-Host
 
 Set-Location $PSScriptRoot
+# Set-Location "X:\source\repos\VN-test"
 
 Start-Process "http://localhost:4000"
 
